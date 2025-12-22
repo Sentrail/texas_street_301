@@ -1,0 +1,44 @@
+/* Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom colors */
+@layer base {
+    :root {
+        --texas-red: #B9382E;
+        --texas-blue: #2C3E50;
+        --texas-cream: #F9F7F2;
+        --texas-tan: #E5DCC5;
+        --texas-brown: #5D4037;
+    }
+}
+
+@layer components {
+    .text-texas-red { color: var(--texas-red); }
+    .bg-texas-red { background-color: var(--texas-red); }
+    .text-texas-blue { color: var(--texas-blue); }
+    .bg-texas-blue { background-color: var(--texas-blue); }
+    .text-texas-cream { color: var(--texas-cream); }
+    .bg-texas-cream { background-color: var(--texas-cream); }
+    .text-texas-tan { color: var(--texas-tan); }
+    .bg-texas-tan { background-color: var(--texas-tan); }
+    .text-texas-brown { color: var(--texas-brown); }
+    .bg-texas-brown { background-color: var(--texas-brown); }
+    .hover\:bg-texas-red:hover { background-color: var(--texas-red); }
+}
+
+/* Custom utilities */
+@layer utilities {
+    .hero-bg {
+        background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.6)), 
+                    url('https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+        background-size: cover;
+        background-position: center;
+    }
+    .scroll-smooth { scroll-behavior: smooth; }
+}
+
+/* Font families */
+.font-slab { font-family: 'Roboto Slab', serif; }
+.font-sans { font-family: 'Open Sans', sans-serif; }
