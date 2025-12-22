@@ -49,7 +49,7 @@
 <body class="font-sans text-gray-700 bg-texas-cream scroll-smooth">
 
     <!-- Navigation -->
-    <nav class="bg-white shadow-md fixed w-full z-50 border-t-4 border-texas-red">
+    <nav class="bg-white shadow-md relative w-full z-50 border-t-4 border-texas-red">
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
             <!-- Logo -->
             <a href="#" class="flex flex-col">
@@ -145,7 +145,7 @@
     <section id="about" class="py-20 container mx-auto px-6">
         <div class="flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Restaurant Interior" class="rounded-lg shadow-2xl border-4 border-white transform rotate-2">
+                <img src="images/snap.avif" alt="Restaurant Interior" class="rounded-lg shadow-2xl border-4 border-white transform rotate-2">
             </div>
             <div class="md:w-1/2">
                 <h4 class="text-texas-red font-bold uppercase tracking-widest mb-2">About Texas Street 301</h4>
