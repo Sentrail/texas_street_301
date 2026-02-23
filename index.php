@@ -145,7 +145,7 @@
     <section id="about" class="py-20 container mx-auto px-6">
         <div class="flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-1/2">
-                <img src="images/snap.avif" alt="Restaurant Interior" class="rounded-lg shadow-2xl border-4 border-white transform rotate-2">
+                <img src="/images/bg2.png" alt="Restaurant Interior" class="rounded-lg shadow-2xl border-4 border-white transform rotate-2">
             </div>
             <div class="md:w-1/2">
                 <h4 class="text-texas-red font-bold uppercase tracking-widest mb-2">About Texas Street 301</h4>

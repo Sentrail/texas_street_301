@@ -1,7 +1,7 @@
 /* Tailwind base, components, utilities */
-@tailwind base;
+/*@tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 /* Custom colors */
 @layer base {
@@ -32,7 +32,7 @@
 @layer utilities {
     .hero-bg {
         background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.6)), 
-                    url("/images/cover.png");
+                    url("/images/bg1.png");
         background-size: cover;
         background-position: center;
     }
